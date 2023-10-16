@@ -1,0 +1,175 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    .dani {
+        background-color: lightgrey;
+        width: 500px;
+        height: 300px;
+        top: 200px;
+        left: 200px;
+        right: 300px;
+        border: 5px solid #008000;
+        position: relative;
+    
+      }
+    .solo {   
+             border: 5px;
+             left: 250px;
+             top:150px;
+             position: absolute;
+             border-radius: 50%;
+             background:red;
+             height: 200px;
+             width: 200px;
+            
+        
+      }
+</style>
+</head>
+<body>
+
+
+
+  <div class="dani">
+    <div class="solo">
+
+    </div>
+    
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content on the Right Side</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .left-column {
+      width: 70%; /* Adjust the width as needed */
+    }
+    .right-column {
+      width: 30%; /* Adjust the width as needed */
+      background-color: #f0f0f0; /* Background color for the right column */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <h1>Main Content</h1>
+      <p>This is the main content that will appear on the left side of the page. You can put your text, images, and other elements here.</p>
+    </div>
+    <div class="right-column">
+      <h2>Side Content</h2>
+      <p>This is the content that will appear on the right side of the page. You can put additional information or widgets here.</p>
+    </div>
+  </div>
+</body>
+</html>
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone</title>
+    <style>
+        body {
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .phone {
+            background-color: #000;
+            border: 5px solid #333;
+            border-radius: 20px;
+            width: 300px;
+            height: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+
+        .screen {
+            background-color: #fff;
+            border: 5px solid #333;
+            border-radius: 15px;
+            margin: 20px;
+            height: 560px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .status-bar {
+            background-color: #333;
+            height: 30px;
+        }
+
+        .app-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-grow: 1;
+            padding: 10px;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background-color: #333;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .app-icon img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .app-label {
+            margin-top: 10px;
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="phone">
+        <div class="screen">
+            <div class="status-bar"></div>
+            <div class="app-icons">
+                <div class="app-icon">
+                    <img src="icon1.png" alt="App 1">
+                    <div class="app-label">App 1</div>
+                </div>
+                <div class="app-icon">
+                    <img src="icon2.png" alt="App 2">
+                    <div class="app-label">App 2</div>
+                </div>
+                <!-- Add more app icons here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
